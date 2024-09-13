@@ -1,0 +1,145 @@
+
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: grid;
+   
+}
+nav{
+    background-color:  rgb(177, 233, 230);
+    height: 140px;
+}
+h1{
+    position: absolute;
+    font-family: "Matemasie", sans-serif;
+    position: absolute;
+    padding: 50px;
+    display: inline-block;
+    justify-content: center;
+    color: #000000;
+    font-size: 60px;
+    left: 500px;
+}
+.img1{
+    position: relative;
+    width: 310px;
+    height: 220px;
+    top: -220px;
+}
+.container{
+    position: relative;
+    left: 620px;
+    top: -110px;
+    background: rgb(209, 244, 255);
+    width: 720px;
+    height: 740px;
+    border: 2px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #0c0808;
+    border-radius: 10px ;
+    padding: 30px 40px;
+
+}
+.container h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    
+}
+.input-box input{
+    position: relative;
+    width: 420px;
+    height: 70px;
+    top: -670px;
+    left: 720px;
+    margin: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(12, 7, 7, 0.2);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000000;   
+    padding: 20px 45px 20px 20px; 
+}
+
+.input-box input::placeholder{
+    color: #0c0808;
+    
+}
+.reme-forgo{
+    position: relative;
+    top: -640px;
+    left: 700px;
+    display: flex;
+    font-size: 30px;
+    margin:-15px 0px 15px ;
+}   
+.reme-forgo label input {
+    color: #000000;
+    margin-right: 3px;
+
+}
+.reme-forgot a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+.reme-forgo a:hover {
+    text-decoration: underline;
+}
+.btn-1{
+    position: relative;
+    top: -620px;
+    left: 830px;
+    width: 120px;
+    height: 50px;
+    background: #9784eb;
+    border: none;
+    border-radius: 5px;
+    box-decoration-break: 0px 0px 10px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-2{
+    position: relative;
+    top: -1520px;
+    left: 30px;
+    width: 120px;
+    height: 50px;
+    background: #9784eb;
+    border: none;
+    border-radius: 5px;
+    box-decoration-break: 0px 0px 10px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+}
+.container .registrar-link{
+    font-size: 14,5px;
+    text-align: center;
+    margin: 20px 0px 20px;
+
+}
+.registrar-link p a{
+    color: #fff;
+    text-decoration: none ;
+}
+
+.registrar-link p a:hover {
+    text-decoration: underline;
+}
+
+
